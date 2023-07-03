@@ -1,0 +1,23 @@
+{
+  "name": "reactredux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "json-server": "^0.17.3",
+    "nodemon": "^2.0.22",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2"
+  }
+}
